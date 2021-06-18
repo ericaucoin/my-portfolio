@@ -1,0 +1,228 @@
+/* GREY COLOR - #0e141b */
+
+/* -------------------------------- */
+/* BASIC SETUP */
+/* -------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Nunito Sans", "Helvetica", sans-serif;
+  background-color: #0e141b;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  line-height: 1.6;
+  word-spacing: 0.1em;
+}
+
+/* -------------------------------- */
+/* HEADER */
+/* -------------------------------- */
+
+header {
+  text-align: center;
+  padding: 30px;
+}
+
+.head {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(IMG/laskyline.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.head-fig {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portrait {
+  length: 600px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 20px rgba(0,0,0,.3);
+}
+
+figcaption {
+  font-weight: bold;
+  font-size: 110%;
+  padding: 0 30px;
+}
+
+/* -------------------------------- */
+/* ABOUT ME */
+/* -------------------------------- */
+
+.about-me {
+  padding: 25px 0;
+}
+
+.about-me__header {
+  padding-bottom: 25px;
+}
+
+.about-me__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.about-me__content p {
+  flex: 0 0 45%;
+  padding-right: 10px;
+}
+
+.tech-image {
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 0 40px 20px rgba(0,0,0,.3);
+}
+
+/* -------------------------------- */
+/* PORTFOLIO */
+/* -------------------------------- */
+
+.portfolio {
+  padding: 25px 0;
+}
+
+.portfolio__header {
+  padding-bottom: 25px;
+}
+
+.portfolio__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.portfolio__item {
+  border-radius: 10px;
+  background-color: #243446;
+  padding: 50px 110px;
+  margin: 0 50px;
+  color: #577494;
+  font-size: 50px;
+  box-shadow: 0 0 40px 20px rgba(0,0,0,.3);
+}
+
+.portfolio__item:hover {
+  transform: scale(1.05);
+  transition: transform 0.8s, color 0.8s;
+  background-color: #2d425a;
+  color: #78a0cc;
+}
+
+/* -------------------------------- */
+/* NAVIGATION */
+/* -------------------------------- */
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  color: #FFF;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.navigation {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  list-style-type: none;
+}
+
+ .navigation li{
+  display: inline;
+}
+
+.navigation li a:link,
+.navigation li a:visited {
+  color: white;
+  text-decoration: none;
+  padding: 3px;
+  border-bottom: 2px solid transparent;
+  /* transition = property,duration,timing function,delay */
+  transition: border-bottom .5s linear 0s;
+  font-size: 90%;
+}
+
+.navigation li a:hover, .navigation li a:active { 
+  border-bottom: 2px solid #7e7e7e;
+}
+
+/* -------------------------------- */
+/* CONTACT */
+/* -------------------------------- */
+
+.contact {
+  padding: 25px;
+}
+
+.contact__header {
+  padding-bottom: 25px;
+}
+
+
+/* -------------------------------- */
+/* FOOTER */
+/* -------------------------------- */
+
+footer {
+  /* position: fixed; */
+  color: #ffffff54;
+  background-color: #0e141b;
+  font-weight: 100;
+  margin: 10px;
+  display: flex;
+}
+
+.footer__item {
+  align-self: flex-start;
+}
+
+.foot__social-nav {
+  align-self: flex-end;
+}
+
+.footer__social-links {
+  text-decoration: none;
+  color: #ffffff54;
+  list-style: none;
+  display: flex;
+}
+
+.footer__social-links li a:link,
+.footer__social-links li a:visited {
+  color: #ffffff54;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-instagram {
+  transition: color 0.2s;
+}
+
+.ion-social-facebook:hover {
+  color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+  color: #00aced;
+}
+
+.ion-social-instagram:hover {
+  color: #517fa4;
+}
