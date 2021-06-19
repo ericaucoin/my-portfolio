@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="Vendors/CSS/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="Resources/CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;1,400&display=swap" rel="stylesheet">
+    <title>Welcome!</title>
+  </head>
+
+  <body>
+    <div class="head">
+      <header>
+        <nav>
+          <a href="index.html" class="title">
+            <h1>Eric C AuCoin</h1>
+          </a>
+          <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <figure class="head-fig">
+        <img src="Resources/IMG/IMG_4285.jpeg" class="portrait">
+        <figcaption>Hello 👽<br> I like to build with code.<br>Welcome to my website!</figcaption>
+      </figure>
+    </div>
+    <div class="about-me" id="about-me">
+      <h2 class="about-me__header">About Me</h2>
+      <article class="about-me__content">
+        <p>I have always had a big interest in tech. From playing video games
+          when I was young, to getting my first MacBook in high school, and now
+          to writing code professionally. We all have our "thing" and technology
+          is that for me.</p>
+        <figure>
+          <img src="Resources/IMG/tech.jpg" class="tech-image">
+        </figure>
+      </article>
+    </div>
+    <div class="portfolio" id="portfolio">
+      <h2 class="portfolio__header">Portfolio</h2>
+      <figure class="portfolio__items">
+        <div class="portfolio__item">
+          <p>#1</p>
+        </div>
+        <div class="portfolio__item">
+          <p>#2</p>
+        </div>
+        <div class="portfolio__item">
+          <p>#3</p>
+        </div>
+      </figure>
+    </div>
+    <div class="contact" id="contact">
+      <h2 class="contact__header">Contact me</h2>
+      <form action=".html" method="POST">
+        <section class="name">
+          <label for="firstname">First name</label>
+          <input type="text" name="firstname" id="firstname" required>
+          <br>
+          <label for="lastname">Last name</label>
+          <input type="text" name="lastname" id="lastname" required>
+        </section>
+        <br>
+        <section class="email">
+          <label for="email">Email</label>
+          <input type="text" name="emailaddress" id="email" required>
+        </section>
+        <br>
+        <section class="moreinfo">
+          <label for="moreinfo">Please give brief details of the project.</label>
+          <br>
+          <textarea id="moreinfo" name="details" rows="10" cols="30" maxlength="300"></textarea>
+        </section>
+        <br>
+        <section class="submit">
+          <input type="submit">
+        </section>
+      </form>
+    </div>
+    <footer>
+      <p class="footer__item">EACode Est. 1993</p>
+      <div class="foot__social-nav">
+        <ul class="footer__social-links">
+          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+
+</html>
